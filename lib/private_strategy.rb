@@ -108,8 +108,8 @@ class GitHubPrivateRepositoryReleaseDownloadStrategy < GitHubPrivateRepositoryDo
     # _, @owner, @repo, @tag, @filename = *@url.match(url_pattern)
     @owner = "Kamilla260"
     @repo = "testsetup"
-    @tag = "v1.0.0"
-    @filename = "v1.0.0.tar.gz"
+    @tag = "v1.0.3"
+    @filename = "v1.0.3.tar.gz"
   end
 
   def download_url
