@@ -3,7 +3,7 @@ class Testsetup < Formula
   desc "First formulea for tests"
   homepage "https://github.com/Kamilla260/testsetup"
   url "https://github.com/Kamilla260/testsetup/archive/refs/tags/v1.0.7.tar.gz"
-  sha256 "92546151bbdff153d080a08b99da800978b2283cf4beee272ff50684c3c41d26"
+  sha256 "60a806941f6592c4b65b0e541818b8e01888d4bb9fbeb20ea28d978101d01eb7"
 
   def install
     bin.install "testsetup"
