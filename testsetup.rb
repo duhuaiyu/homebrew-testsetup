@@ -1,4 +1,4 @@
-require_relative "lib/private_strategy"
+# require_relative "lib/private_strategy"
 class Testsetup < Formula
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
