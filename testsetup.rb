@@ -3,7 +3,7 @@ class Testsetup < Formula
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
   url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.0.8.tar.gz"
-  sha256 "60a806941f6592c4b65b0e541818b8e01888d4bb9fbeb20ea28d978101d01eb7"
+  sha256 "a91cee26bcc09c4676ccfbbab235c11bf6d1a085ca59d5c074d085e60b3488de"
 
   def install
     bin.install "testsetup"
