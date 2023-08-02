@@ -3,7 +3,7 @@ class Testsetup < Formula
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
   url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.1.0.tar.gz"
-  sha256 "4fc1db5d8c9bdd5993c430c66eae9a0b3f5745cd4e73208705981598d7494769"
+  sha256 "f4fd37339acdcf5fb153d7411bf627682689d04917da7db90443202003be4440"
 
   depends_on "python@3.8"
 
