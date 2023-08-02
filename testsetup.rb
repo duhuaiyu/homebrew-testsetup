@@ -1,5 +1,4 @@
 class Testsetup < Formula
-  include Language::Python::Virtualenv
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
   url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.1.4.tar.gz"
@@ -13,7 +12,7 @@ class Testsetup < Formula
   end
 
   def install
-    virtualenv_install_with_resources
+    bin.install "testsetup"
   end
 
 end
