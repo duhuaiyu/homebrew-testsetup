@@ -2,7 +2,7 @@ class Testsetup < Formula
   include Language::Python::Virtualenv
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
-  url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.1.1.tar.gz"
+  url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.1.2.tar.gz"
   sha256 "6177230693948afbff0e4226c0cdba6bdf34839b60a86c7c9bfb46ca8ebdd350"
 
   depends_on "python@3.8"
