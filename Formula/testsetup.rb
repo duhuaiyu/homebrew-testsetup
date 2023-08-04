@@ -6,7 +6,7 @@ class Testsetup < Formula
   sha256 "72e3127a5007103e2b2e7e35172d7da256471c54370447199ffafb631526c0b4"
 
   depends_on "python-typing-extensions"
-  depends_on "python@3.11"
+  depends_on "python@3.7"
   depends_on "pyyaml"
   depends_on "six"
 
