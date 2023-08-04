@@ -2,8 +2,8 @@ class Testsetup < Formula
   include Language::Python::Virtualenv
   desc "First formulea for tests"
   homepage "https://froggytesto.jfrog.io/"
-  url "https://froggytesto.jfrog.io/artifactory/testsetup/testsetup-1.1.5.tar.gz"
-  sha256 "7a50ede8ab17f15af84c9ea41684b01a3bb6fd0e31b722677ccf7cd92e156c3e"
+  url "https://files.pythonhosted.org/packages/f2/ba/1b5f182c3f1769c0863bcaa77406bdcb81c92e31bb579959c01b1d8951c0/datasette-0.50.2.tar.gz"
+  sha256 "12ae15cd680d87f76a45ad30ff5b28a1fbf482e480dffdcfcea48be58b7a7c11"
 
   depends_on "python@3.8"
 
